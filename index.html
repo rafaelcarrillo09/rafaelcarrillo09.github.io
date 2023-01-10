@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Rafael Carrillo Muñoz
+EMAIL: carrilr4@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Rafael Carrillo Muñoz">
+  <meta name="description" content="This is my Web Portfolio built from scratch!">
+  <!-- my css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- my javascript file -->
+  <script src="myscript.js"></script>
+  <title>Rafael's Portfolio</title>
+</head>
+<!-- Beginning of browser content -->
+<body  id="home">
+  <!--Top Navigation Menu -->
+  <nav id="nav" class="nav">
+    <!-- Hamburger Icon Menu -->
+    <a href="javascript:void(0);" class="icon" onclick="showMenu()" title="Hamburger Icon on the top left">
+    <span class="fa fa-bars"></span>
+    </a>
+    <div id="links">
+      <span>
+      <a class="active" href="#home">Home</a>
+      <a href="#aboutMe">About Me</a>
+      <a href="#Career">Education/Skills</a>
+      <a href="#Contact">Contact</a>
+      </span>
+    </div>
+  </nav>
+  <!--LA Background -->
+  <img class="backgroundImg" src="Images/backgroundImg.JPG" alt="The LA skyline as a background">
+  <!-- Author Pic -->
+  <img class="homeImg" src="Images/homeImg.jpg" alt="An image of the author of this portfolio">
+  <!-- Autor name and Title -->
+  <header>
+      <h1 id="name">Rafael Carrillo Muñoz</h1>
+      <h2>Software Developer / HCI Specialist</h2>
+  </header>
+  <!-- Beginning of Sections -->
+  <section class="section">
+    <!-- About Me Section -->
+      <h3 id="aboutMe" class="title">About Me</h3>
+        <p class="intro"><strong>Hello, World!</strong></p>
+      <p class="intro">My name is <strong>Rafael Carrillo Muñoz</strong> and I am <strong>twenty-one years old</strong>. I was born and raised in <strong>South Central</strong>, Los Angeles. I am a Latino with a passion for learning, technology, and <strong>helping the world.</strong> </p>
+      <p class="intro">
+        I am currently attending <strong>UC Irvine</strong> pursuing a Major in <strong>Informatics</strong> and a Minor in <strong>Computer Science</strong> with a Specialization in <strong>Human-Computer Interaction</strong></p>
+    <!-- Fun Facts -->
+      <h3 class="title">Fun Facts</h3>
+      <div class="row">
+        <!-- Second Image of Author -->
+      <div id="image" class="column">
+       <img id="aboutMeImg" src="Images/aboutMeImg.jpg" alt="A picture of the author">
+      </div>
+      <!-- Checklist of fun facts -->
+      <div class="column">
+      <ul id="list">
+        <li>I am <strong>left-handed</strong></li>
+        <li>I am the <strong>second youngest</strong> of four sisters</li>
+        <li>I love watching <strong>anime</strong> and reading <strong>manga</strong></li>
+        <li>I love going for <strong>runs</strong> and <strong>exercising</strong></li>
+        <li>I am a <strong>marathon finisher</strong></li>
+        <li>I am currently <strong>learning Japanese</strong></li>
+        <li>My favorite rapper is <strong>$not</strong></li>
+      </ul>
+      </div>
+      
+      </div>
+  </section>
+  <section class="section">
+    <!-- Education and Skills -->
+    <h3 class="title" id="Career">Education/Skills</h3>
+    <div class="row">
+      <!-- Education  -->
+      <div class="column">
+      <p class="title" id="subList1"> <strong>Education</strong></p>
+      <ul class="list2" >
+      <li><strong>University of California, Irvine</strong></li>
+      <li><strong>Major:</strong> Informatics</li>
+      <li><strong>Minor:</strong> Informations and CS</li>
+      <li><strong>Specialization:</strong> HCI</li>
+      <li><strong>GPA:</strong> 3.23</li>
+      <li><strong>Expected Graduation:</strong> June 2024</li>
+      <li><strong>Favorite Classes:</strong></li>
+      <li>Intro to HCI, Programming in Python, Programming in Java, 
+      Social Analysis in Computing, Software Design, Information Retrieval, UI Software</li>
+      </ul>
+      </div>
+      <!-- Skills -->
+      <div class="column">
+      <p class="title" id="subList2"> <strong>Skills</strong></p>
+      <ul class="list2">
+      <li><strong>Bilingual</strong> (English, Spanish, Learning Japanese)</li>
+      <li><strong>Programming</strong> (Java, Python, HTML, CSS, Javascript)</li>
+      <li><strong>Technical</strong> (Google Workspace, Figma)</li>
+      <li><strong>Comunication and Listening</strong></li>
+      <li><strong>Problem-solving</strong></li>
+      <li><strong>Customer-relations</strong></li>
+      <li><strong>Cash-handling</strong></li>
+      </ul>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <!-- Contact -->
+    <h3 class="title" id="Contact">Contact</h3>
+    <div class="row">
+      <!-- Contact paragraph -->
+      <div class="column">
+        <p><strong>
+          I am actively looking for an internship in the LA area, related to my skills and interests. Please reach out to me if you would like to connect or if you think I can provide value to your company!
+          </strong></p>
+          <p ><strong>Thank you!</strong></p>
+          
+      </div>
+      <!-- Contact Icons -->
+      <div id="bottomIcons" class="column">
+      <span id="email" class="fa fa-envelope"><span id="link2">carrilr4@uci.edu</span></span>
+      <span id="handshake" class="fa fa-handshake-o"><a id="link" href="https://uci.joinhandshake.com/stu/users/19434458">Handshake</a></span>
+<<<<<<< HEAD
+      <span id="linkedIn" class="fa fa-linkedin"><a id="link3" href="https://www.linkedin.com/in/rafael-carrillo-mu%C3%B1oz-38256323b">LinkedIn</a></span>
+=======
+      <span id="linkedIn" class="icon-linkedin"><a id="link" href="https://www.linkedin.com/in/rafael-carrillo-mu%C3%B1oz-38256323b">LinkedIn</a></span>
+>>>>>>> 45909d54a8891aef3673925eddceccbe6625d41d
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+     CopyRight 2022 
+
+  </footer>
+</body>
+</html>
