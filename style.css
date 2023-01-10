@@ -370,6 +370,11 @@ header{
 	text-decoration: underline;
 	color: white;
 }
+#link3:hover{
+	text-decoration: underline;
+	color: white;
+}
+
 
 /*Handshake icon*/
 #handshake{
