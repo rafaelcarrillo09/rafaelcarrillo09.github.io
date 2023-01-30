@@ -13,11 +13,12 @@
 h1, h2, #bottomIcons,.nav a.icon {
 	font-size: 20px;
 }
+
 header {
 	margin-top: -30px;
 }
 .homeImg{
-	top: -20px;
+	top: -30px;
 	width: 40%;
 }
 .backgroundImg{
@@ -57,9 +58,10 @@ header {
 	width: 70%;
 }
 .homeImg{
-	top: -30px;
+	top: -40px;
 	width: 35%;
 }
+
 .title, .section{
 	font-size: 20px;
 }
@@ -94,7 +96,7 @@ header {
 	width: 60%;
 }
 .homeImg{
-	top: -40px;
+	top: -50px;
 	width: 30%;
 }
 .title, .section{
@@ -131,7 +133,7 @@ header {
 	width: 50%;
 }
 .homeImg{
-	top: -50px;
+	top: -60px;
 	width: 25%;
 }
 .title, .section{
@@ -165,7 +167,7 @@ header {
 	margin-top: -70px;
 }
 .homeImg{
-	top: -60px;
+	top: -70px;
 	width: 20%;
 }
 .backgroundImg{
@@ -262,6 +264,7 @@ a:hover {
 	border-style: solid;
 	border-color:  #264040;
 }
+
 /*Name and Title*/
 h1 {
 	color: #264040;
@@ -269,6 +272,7 @@ h1 {
 h2{
 	color: white;
 	font-weight: bold;
+	margin-top: -2%;
 }
 
 header{
@@ -344,6 +348,27 @@ header{
 #subList1, #subList2{
 	border-style: solid;
 	border-color:#264040;
+}
+
+.PortfolioImages {
+	text-align: center;
+	margin-top: 6%;
+}
+
+#StarImage {
+	height: auto;
+	width: 80%;
+	margin-top: -25%;
+	margin-bottom: -25%;
+}
+
+#SAGEImg {
+	height: auto;
+	width: 30%;
+}
+
+.Link {
+	color: blue;
 }
 
 #bottomIcons{
