@@ -15,7 +15,7 @@ h1, h2, #bottomIcons,.nav a.icon {
 }
 
 header {
-	margin-top: -30px;
+	margin-top: 0px;
 }
 .homeImg{
 	top: -30px;
@@ -52,7 +52,7 @@ h1, h2, #bottomIcons,.nav a.icon {
 	font-size: 25px;
 }
 header {
-	margin-top: -40px;
+	margin-top: 0px;
 }
 .backgroundImg{
 	width: 70%;
@@ -90,7 +90,7 @@ h1, h2, #bottomIcons,.nav a.icon {
 	font-size: 30px;
 }
 header {
-	margin-top: -50px;
+	margin-top: 0px;
 }
 .backgroundImg{
 	width: 60%;
@@ -127,7 +127,7 @@ h1, h2, #bottomIcons,.nav a.icon {
 	font-size: 35px;
 }
 header {
-	margin-top: -60px;
+	margin-top:0px;
 }
 .backgroundImg{
 	width: 50%;
@@ -164,7 +164,7 @@ h1, h2, #bottomIcons,.nav a.icon {
 	font-size: 40px;
 }
 header {
-	margin-top: -70px;
+	margin-top: 0px;
 }
 .homeImg{
 	top: -70px;
@@ -195,75 +195,7 @@ body {
 	font-family: 'Crimson Text', serif;
 }
 
-/*Top Navigation Menu*/
-.nav{
-	overflow: hidden;
-  	position: sticky;
-	top: 0;
-	z-index: 1;	
-	transition: 0.33s;
-}
 
-/*Menu Links div*/
-.nav #links {
-	display: none;
-}
-
-/*Menu Links*/
-.nav a {
-	text-decoration: none;
-	color: #264040;
-	display: block;
-	font-weight: bold;
-	display: inline-block;
-	float: left;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-right: 5px;
-	margin-top: 1%;
-}
-
-/*Hamburger icon*/
-.nav a.icon {
-	color: #264040;
-	margin-left: 20px;
-	display: inline-block;
-	margin-top: 0.2%;
-}
-
-a:hover {
-	text-decoration: underline;
-	color: white;
-}
-
-.nav a.icon:hover {
-	color: white;
-}
-
-/*LA Background*/
-.backgroundImg {
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	height: auto;
-	border-style: solid;
-	border-color: #264040;
-	border-radius: 10%;
-	margin-top: 10px;
-}
-
-/*Author Pic*/
-.homeImg {
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	height: auto;
-	border-radius: 50%;
-	border-style: solid;
-	border-color:  #264040;
-}
 
 /*Name and Title*/
 h1 {
@@ -318,23 +250,6 @@ header{
 }
 
 
-/*fun facts and liat*/
-#list {
-	list-style: circle;
-	text-align: left;
-	float: left;
-}
-
-/*aboutme Pic*/
-#aboutMeImg {
-	height: 100%;
-	width: 80%;
-	border-style: solid;
-	border-color: #264040;
-	margin-top: -5px;
-	position: relative;
-	border-radius: 100%;
-}
 
 #image{
 	text-align: center;
@@ -350,59 +265,18 @@ header{
 	border-color:#264040;
 }
 
-.PortfolioImages {
-	text-align: center;
-	margin-top: 6%;
-
-
-}
-#TXTImage {
-	border-style: solid;
-	border-color:#264040;
-}
-#StarImage {
-	height: auto;
-	width: 80%;
-	margin-top: -25%;
-	margin-bottom: -25%;
-
-}
-
-#STARBorder {
-	border-style: solid;
-	border-color:#264040;
-}
-
-#SAGEImg {
-	height: auto;
-	width: 30%;
-	border-style: solid;
-	border-color:#264040;
-}
-
-#WebDevProject {
-	height: auto;
-	width: 50%;
-
-}
-
-#PortfolioSection {
-	padding: 20px;
-
-}
 
 .Link {
 	color: #264040;
 }
 
-#bottomIcons{
-	text-align: center;
+#WebDevProject {
+	height: auto;
+	width: 50%;
+	align-content: center;
 }
-/*email icon*/
-#email{
-	position: relative;
-	margin-top: 25px;
-	margin-left: -10px;
+.PortfolioImages {
+	text-align: center;
 }
 
 /*handshake  and email */
@@ -424,14 +298,6 @@ header{
 	color: white;
 }
 
-
-/*Handshake icon*/
-#handshake{
-	position: relative;
-	margin-top: 35px;
-	display: block;
-	margin-left: -10px;
-}
 #end{
 	text-decoration-line: underline;
 }

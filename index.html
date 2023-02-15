@@ -32,17 +32,20 @@ EMAIL: carrilr4@uci.edu
       <span>
         <a class="active" href="#home">Home</a>
         <a href="#aboutMe">About Me</a>
-        <a href="#Career">Experience</a>
+        <a href="#Education">Education</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="Resume/Resume.pdf">Resume</a>
         <a href="#Contact">Contact</a>
       </span>
     </div>
   </nav>
 
   <!--LA Background -->
-  <img class="backgroundImg" src="Images/backgroundImg.JPG" alt="The LA skyline as a background">
+  <img class="backgroundImg" src="Images/backgroundImg.JPG" alt="The LA skyline as a background.">
 
   <!-- Author Pic -->
-  <img class="homeImg" src="Images/AboutMeImage.jpg" alt="An image of the author of this portfolio">
+  <img class="homeImg" src="Images/AboutMeImage.jpg" alt="An image of the author of this website">
 
   <!-- Autor name and Title -->
   <header>
@@ -61,6 +64,9 @@ EMAIL: carrilr4@uci.edu
     </p>
     <p class="intro">
       I am currently attending <strong>UC Irvine</strong> pursuing a <strong>Major in Informatics</strong> and a <strong>Minor in Computer Science</strong> with a <strong>Specialization in Human-Computer Interaction.</strong>
+    </p>
+    <p class="intro">
+     This is my personal website <strong>built from scratch!</strong>
     </p>
 
     <!-- Fun Facts -->
@@ -87,16 +93,16 @@ EMAIL: carrilr4@uci.edu
 
   <section class="section">
     <!-- Education and Skills -->
-    <h3 class="title" id="Career">Experience</h3>
+    <h3 class="title" id="Education">Education</h3>
       <div class="row">
       <!-- Education  -->
       <div class="column">
-        <p class="title" id="subList1"> <strong>Education</strong></p>
+        <p class="title" id="subList1"> <strong>Undergraduate</strong></p>
         <ul class="list2" >
           <li><strong>University of California, Irvine</strong></li>
           <li><strong>Major:</strong> Informatics</li>
-          <li><strong>Minor:</strong> Informations and CS</li>
-          <li><strong>Specialization:</strong> HCI</li>
+          <li><strong>Minor:</strong> Informations and Computer Science</li>
+          <li><strong>Specialization:</strong> Human-Computer Interaction</li>
           <li><strong>GPA:</strong> 3.23</li>
           <li><strong>Expected Graduation:</strong> March 2024</li>
           <li><strong>Interests: </strong> Ubiquitous Computing, Design in HCI, Speculative Design</li>
@@ -109,10 +115,10 @@ EMAIL: carrilr4@uci.edu
         <!-- TXTLabs, SAGE, ART, Dunkin, UCI -->
         <p class="title" id="subList2"> <strong>Skills</strong></p>
         <ul class="list2">
-          <li><strong>Bilingual (English, Spanish)</strong></br> Experience communicating with diverse people from different backgrounds</li>
-          <li><strong>Programming (Java, Python, HTML, CSS, Javascript)</strong> </br>Experience with programming my personal portfolio and other projects</li>
+           <li><strong>UX Design (Human-Centered Design, Co-Design)</strong></br> Experience with researching, analyzing, and designing for humans using different methods</li>
+          <li><strong>Programming (Java, Python, Web / App development)</strong> </br>Experience with programming my personal portfolio and other projects</li>
           <li><strong>Technical (Google Workspace, Figma, Slack, Trello)</strong> </br>Experience with team working and proactive communicating</li>
-          
+          <li><strong>Bilingual (English, Spanish)</strong></br> Experience communicating with diverse people from different backgrounds</li>
           <li><strong>Customer-relations (Employee)</strong> </br>Experience with helping customers and enriching their experiences</li>
           <li><strong>Cash-handling (Cashier)</strong></br>Experience with handling transactions, exchanges, and detecting counterfeit </li>
         </ul>
@@ -122,16 +128,16 @@ EMAIL: carrilr4@uci.edu
 
   <section class="section">
     <!-- Portfolio -->
-    <h3 class="title">Portfolio</h3>
+    <h3 class="title" id="Experience">Experience</h3>
     <!-- TXT Labs -->
     <div class="row">
       <div class="column">
         <div class="PortfolioImages" >
-          <img src="Images/TXTLabsImage.png"> 
+          <img id="TXTImage"src="Images/TXTLabsImage.png" alt="An image of the TXTLabs Logo"> 
         </div>
       </div>
       <div class="column" >
-        <div class="PortfolioText">
+        <div class="ExperienceText">
         <p><strong>
           TXT Labs Apprentice - UX Designer
           </strong></p>
@@ -142,12 +148,12 @@ EMAIL: carrilr4@uci.edu
     <!-- Star Labs  -->
     <div class="row">
       <div class="column">
-        <div class="PortfolioImages" >
-          <img id="StarImage" src="Images/StarLabImage.png"> 
+        <div id="STARBorder" class="PortfolioImages" >
+          <img id="StarImage" src="Images/StarLabImage.png" alt="An image of the STAR Lab logo"> 
         </div>
       </div>
       <div class="column" >
-        <div class="PortfolioText">
+        <div class="ExperienceText">
         <p><strong>
           STAR Lab Autistic Research Team - Research Assistant
           </strong></p>
@@ -159,11 +165,11 @@ EMAIL: carrilr4@uci.edu
     <div class="row">
       <div class="column">
         <div class="PortfolioImages" >
-          <img id="SAGEImg"src="Images/SAGEScholarsImage.jpg"> 
+          <img id="SAGEImg"src="Images/SAGEScholarsImage.jpg" alt="An image of the SAGE Scholars logo"> 
         </div>
       </div>
       <div class="column" >
-        <div class="PortfolioText">
+        <div class="ExperienceText">
         <p><strong>
           SAGE Scholars at UCI - Member
           </strong></p>
@@ -171,6 +177,28 @@ EMAIL: carrilr4@uci.edu
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="section">
+
+    <!-- Portfolio -->
+    <h3 class="title" id="Portfolio">Portfolio</h3>
+    
+
+    <!-- Website from Scratch Portfolio -->
+    <div class="row">
+      <a id="link"href="html/portfolio.html">
+      <div class="column">
+        <div class="PortfolioImages" >
+          <img id="WebDevProject"src="Images/WebDevProject.png" alt="An image of the author's personal website"> 
+          <p><strong>
+          Personal Website
+          </strong></p> 
+        </div>
+      </div>
+    </a>
+    </div>
+
   </section>
 
   <section class="section">
@@ -196,7 +224,7 @@ EMAIL: carrilr4@uci.edu
 
   <!-- Footer -->
   <footer>
-     CopyRight 2023
+     Rafael Carrillo Muñoz - CopyRight 2023
   </footer>
 </body>
 </html>
